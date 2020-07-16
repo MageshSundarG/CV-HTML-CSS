@@ -1,0 +1,141 @@
+body{
+margin: 0;
+font-color: #141c3a;
+text-align: center;
+font-family: 'Rubik', sans-serif;
+font-size: 1.25rem;
+}
+.Profile_Picture{
+  height: 250px;
+}
+p{
+  line-height: 2;
+}
+h1{
+  font-family: 'Merienda One', cursive;
+  color: #08d9d6;
+  margin: 75px auto auto auto;
+  font-weight: 400;
+  font-size: 3rem;
+}
+h2{
+  font-family: 'Mitr', sans-serif;
+  color: #1778F2;
+  font-weight: bold;
+  font-size: 2rem;
+}
+h3{
+  font-family: 'Mitr', sans-serif;
+  color: #11999E;
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+.top-container{
+  background-color: #e3fdfd;
+  position: relative;
+  margin-top: 0;
+  padding-top: 100px;
+}
+
+.middle-container{
+
+}
+.bottom-container{
+  background-color: #08d9d6;
+  padding: 50px 0 20px 0;
+
+}
+.bottom-cloud{
+  position: absolute;
+  bottom: 250px;
+  left: 100px;
+
+}
+.top-cloud{
+  position: absolute;
+  top: 40px;
+  right: 150px;
+}
+.footer-link{
+  color: #1778F2;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.skills{
+  width: 60%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  }
+.Web{
+  width: 30%;
+  float: left;
+  margin-right: 30px;
+}
+.Mobile{
+  width: 30%;
+  float: right;
+  margin-right: 30px;
+}
+.role{
+  width: 60% ;
+  text-align: left;
+  margin: 50px auto 50px auto;
+}
+hr{
+  border-color: grey;
+  border-style: none;
+  border-top-style: dotted;
+  border-width:5px;
+  width: 5%;
+  margin: 50px auto 50px auto;
+}
+.Contact-description{
+  width: 60%;
+  margin: 40px auto 40px auto;
+
+}
+.BUTTON_C{
+  font-family: 'Mitr', sans-serif;
+  background-color: transparent;
+  border-radius: 290486px;
+  border-width: 2px;
+  color: #1778F2;
+  border:  2px solid #1778F2;
+  padding: 12px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin-bottom: 40px;
+  cursor: pointer;
+  transition-duration: 0.2s;
+
+}
+.BUTTON_C:hover{
+  background-color: #1778F2;
+  color: white;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.copyright{
+  color: #e3fdfd;
+  font-size: 75%;
+  padding: 20px 0;
+}
+
+
+.btn {
+  background-color: transparent;
+  border-radius: 12px;
+  border: 1px solid white; /* Remove borders */
+  color: white; /* White text */
+  padding: 8.440px 18.880px; /* Some padding */
+  font-size: 15px; /* Set a font size */
+  cursor: pointer; /* Mouse pointer on hover */
+  margin:auto 5px;
+}
+
+.btn:hover {
+  background-color: white;
+  color: #08d9d6;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
